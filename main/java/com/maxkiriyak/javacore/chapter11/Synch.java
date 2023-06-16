@@ -12,7 +12,7 @@ class Callme {
 }
 class Caller implements Runnable {
     String msg;
-    Callme target;
+    final Callme target;
     Thread t;
 
     public Caller(Callme target, String msg) {

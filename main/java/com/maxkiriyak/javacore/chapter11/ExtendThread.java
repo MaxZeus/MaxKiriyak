@@ -1,7 +1,5 @@
 package main.java.com.maxkiriyak.javacore.chapter11;
 
-import java.io.IOException;
-
 class NewThread1 extends Thread {
     NewThread1() {
         super("Demo Thread");
